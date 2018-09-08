@@ -71,10 +71,7 @@ public class Activity2 extends AppCompatActivity {
 
             }
         });
-
-
         //Radio Button
-
     final RadioGroup rdgroup = (RadioGroup) findViewById(R.id.radioGroup);
     Button btnSelec = (Button) findViewById(R.id.btnSelec);
 
@@ -88,7 +85,6 @@ public class Activity2 extends AppCompatActivity {
 
         });
     }
-
     public void Avancar (View view){
         Intent intent = new Intent( this, Ativity3.class);
         startActivity (intent);
